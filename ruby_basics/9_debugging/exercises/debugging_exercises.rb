@@ -52,7 +52,7 @@ end
 
 def yell_greeting(string)
   name = string
-  name = name.upcase
+  name = name.downcase
   greeting = "WASSAP, #{name}!"
-
+  greeting
 end
